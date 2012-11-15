@@ -1,0 +1,22 @@
+name: SignPort
+main: me.fliegenpilz.SignPort.Basic
+version: 1.0
+description: Admins Plugin
+author: Fliegenpilz
+website: http://www.bukkit.org
+commands:
+  SignPort:
+    description: Zeige alle SignPort Comandos an
+    usage: /<command>
+  sp:
+    description: Zeige alle SignPort Comandos an
+    usage: /<command>
+  sp create:
+    description: Erstellt ein SignPort Punkt
+    usage: /<command> create [Spawn punkt]
+  sp del:
+    description: Loescht ein SignPort Punkt
+    usage: /<command> del [Spawn punkt]
+  sp op:
+    description: Setzt oder Schreibt OP rechte auf einen Spawn
+    usage: /<command> op [Spawn punkt] <on/off>
